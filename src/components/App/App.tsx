@@ -75,8 +75,8 @@ class App extends Component<Props, AppState> {
         <br />
         <br />
         <h4 className="info">Please enter</h4>
-        <Input type="text" label="title" inputHandler={this.handleInput} />
-        <Input type="text" label="body" inputHandler={this.handleInput} />
+        <Input type="text" label="title" data-testid="title-input" inputHandler={this.handleInput} />
+        <Input type="text" label="body" data-testid="body-input" inputHandler={this.handleInput} />
         <button onClick={this.handleAdd}>Add</button>
         <br />
         <br />

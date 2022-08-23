@@ -56,7 +56,7 @@ const UserList: React.FC<UserListProps> = ({ users, deleteHandler, updateHandler
           <tr>ID</tr>
           <tr>Title: {user.title}</tr>
           <tr>Description: {user.body}</tr>
-          <tr>Actions</tr>
+          <tr style={{fontWeight: "bold"}}>Actions</tr>
          
         
           <button onClick={hEvent => deleteHandler(hEvent, user)}>
